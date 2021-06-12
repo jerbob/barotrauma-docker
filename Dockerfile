@@ -12,8 +12,8 @@ ENV SAVES_LOC="/saves"
 ENV HOME=$INSTALL_LOC
 
 # Build args
-ARG UID=999
-ARG GID=999
+ARG UID=1001
+ARG GID=1001
 
 # Update and install unicode symbols
 RUN apt-get update && \
